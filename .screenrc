@@ -1,0 +1,11 @@
+shell -$SHELL
+shelltitle '] |bash'
+bindkey -k F1 prev
+bindkey -k F2 next
+startup_message off
+defscrollback 1000
+defutf8 on
+nonblock on
+hardstatus alwayslastline
+hardstatus string '%{= kw}[ %{= kg}%H%{= kw} ][%= %{= kw}%?%-Lw%?%{= kW}%n*%f %t%?%?%{= kw}%?%+Lw%?%?%= ][ %{r}%l%{w} ][%{r} %m/%d/%y %C %A %{w}]%{w}'
+escape ``
